@@ -3,6 +3,7 @@
 
 void PrintSomething() {
     printf("Hello, {thread num %d} World!\n", omp_get_thread_num());
+    printf("Test");
 }
 
 int main() {
